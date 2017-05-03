@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.abing.refreshdemo.base.BaseActivity;
+import com.abing.refreshdemo.ui.fragment.RefreshRecyclerViewFragment;
 import com.abing.refreshdemo.ui.fragment.RefreshSwipeListViewFragment;
 import com.abing.refreshdemo.ui.fragment.RefreshSwipeRecyclerViewFragment;
 
@@ -124,7 +125,7 @@ public class MainActivity extends BaseActivity {
 
     private static class ContentViewPagerAdapter extends FragmentPagerAdapter {
 //        private Class[] mFragments = new Class[]{RefreshGridViewFragment.class, RefreshListViewFragment.class, RefreshRecyclerViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeRecyclerViewFragment.class, RefreshStaggeredRecyclerViewFragment.class, RefreshScrollViewFragment.class, RefreshNormalViewFragment.class, RefreshWebViewFragment.class};
-        private Class[] mFragments = new Class[]{RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeRecyclerViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class};
+        private Class[] mFragments = new Class[]{RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshRecyclerViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeRecyclerViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class, RefreshSwipeListViewFragment.class};
         private Context mContext;
 
         public ContentViewPagerAdapter(FragmentManager fm, Context context) {
